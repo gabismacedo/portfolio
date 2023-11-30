@@ -1,0 +1,28 @@
+.introcucao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px 140px;
+  margin-bottom: 120px;
+  margin-top: 120px;
+}
+.informacao {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.introcucao h1 {
+  color: #161616;
+  font-size: 6.25rem; /*100px*/
+  font-family: "Sarabun", sans-serif;
+}
+.introcucao p {
+  font-family: "Inter", sans-serif;
+  color: #919191;
+  font-size: 2rem; /*32px*/
+  line-height: 2.5rem; /*40px*/
+}
+.introcucao img {
+  max-width: 400px;
+  border-radius: 10px;
+}

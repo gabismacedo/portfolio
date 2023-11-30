@@ -1,0 +1,37 @@
+@import url(Inter-Medium.ttf);
+@import url(Sarabun-Bold.ttf);
+@import url(Sarabun-Medium.ttf);
+
+body {
+  background: #f7f7f7;
+  max-width: 1350px;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+nav,
+div,
+a,
+header {
+  margin: 0px;
+  padding: 0px;
+}
+/*FORMATAÇÃO DE TODOS OS TITULOS*/
+.titulo {
+  font-size: 1.25rem; /*20*/
+  letter-spacing: 2px;
+  color: #161616;
+  font-family: "Sarabun", sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

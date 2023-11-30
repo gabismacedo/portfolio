@@ -1,0 +1,170 @@
+@import url(Inter-Medium.ttf);
+@import url(Sarabun-Bold.ttf);
+@import url(Sarabun-Medium.ttf);
+
+body {
+  background: #f7f7f7;
+  max-width: 1440px;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+/*MENU*/
+.menu {
+  display: flex;
+  gap: 880px;
+  margin: 20px 20px 120px 20px;
+  padding: 10px 20px;
+  background-color: #ffff;
+  border-radius: 10px;
+  height: 40px;
+}
+.menu-opcoes {
+  border: solid 1px #000;
+  display: flex;
+  gap: 30px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+}
+.menu-opcoes a {
+  font-family: "Sarabun", sans-serif;
+  font-size: 1rem; /*16*/
+  color: #161616;
+}
+
+/*INTROCUÇÃO*/
+.introcucao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px 140px;
+  margin-bottom: 120px;
+}
+.introcucao h1 {
+  color: #161616;
+  font-size: 6.25rem; /*100*/
+  font-family: "Sarabun", sans-serif;
+  text-align: center;
+}
+.introcucao p {
+  font-family: "Inter", sans-serif;
+  color: #919191;
+  font-size: 2rem; /*32*/
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+.introcucao img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+/*EXPERIENCIA*/
+.experiecia {
+  background-color: #fafafa;
+  margin-left: 200px;
+  padding: 120px 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px 0px 0px 10px;
+  position: relative;
+  height: 540px;
+  line-height: 2rem; /*32*/
+}
+
+.decorador {
+  position: absolute;
+  left: -28px;
+  top: 50px;
+}
+.titulo {
+  font-size: 1.25rem; /*20*/
+  letter-spacing: 2px;
+  color: #161616;
+  font-family: "Sarabun", sans-serif;
+}
+h3 {
+  font-size: 1rem; /*16*/
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: #161616;
+}
+
+.data-experiencia {
+  font-size: 0.75rem; /*12*/
+  font-family: "Inter", sans-serif;
+  color: #a6a6a6;
+  font-weight: 400;
+}
+.experiencia-itens {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 0.87rem; /*14px*/
+  color: #404040;
+  line-height: 1.8rem;
+}
+.experiencia-itens img {
+  padding-right: 8px;
+}
+
+.skil-itens {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 0.87rem; /*14px*/
+  color: #404040;
+  line-height: 1.8rem;
+}
+
+.skil-itens p {
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.barra-progresso {
+  height: 20px;
+}
+.titulo-educacao {
+  text-transform: uppercase;
+  color: #545454;
+  font-size: 12px; /*14px*/
+  line-height: 1.5rem; /*24*/
+  font-family: "Inter", sans-serif;
+}
+.cursos {
+  color: #161616;
+  font-size: 1rem; /*20px*/
+  line-height: 1.5rem; /*32*/
+  font-family: "Inter", sans-serif;
+  padding-bottom: 36px;
+  padding-right: 80px;
+}
+.educacao {
+  margin-top: 120px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.educacao img {
+  max-height: 150px;
+  padding-right: 20px;
+}
+.titulo {
+  text-align: center;
+  padding-bottom: 60px;
+}

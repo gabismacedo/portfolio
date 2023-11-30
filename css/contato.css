@@ -1,0 +1,37 @@
+.contato {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.contato img {
+  padding-right: 10px;
+  max-width: 20px;
+  display: flex;
+  align-items: center;
+}
+.contato a {
+  color: #161616;
+  font-family: "Sarabun", sans-serif;
+  font-size: 16px;
+}
+.contato p {
+  color: #161616;
+  font-family: "Sarabun", sans-serif;
+  font-size: 16px;
+}
+.contato-rede {
+  background-color: #fafafa;
+  padding: 120px 220px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 300px;
+}
+
+.contato-rede .titulo {
+  padding-bottom: 40px;
+}
+.rede-social {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}

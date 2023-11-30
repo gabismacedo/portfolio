@@ -1,0 +1,9 @@
+footer {
+  color: #404040;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  text-align: end;
+  padding-right: 60px;
+  padding-bottom: 40px;
+  background-color: #fcfcfc;
+}

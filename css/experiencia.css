@@ -1,0 +1,40 @@
+/*EXPERIENCIA*/
+.experiecia-principal {
+  background-color: #fafafa;
+  margin-left: 200px;
+  padding: 120px 140px;
+  border-radius: 10px 0px 0px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 150px;
+  position: relative;
+  max-height: 540px;
+  line-height: 2rem; /*32px*/
+  font-family: "Inter", sans-serif;
+}
+
+.decorador {
+  position: absolute;
+  left: -28px;
+  top: 50px;
+}
+
+.experiecia h3 {
+  font-size: 1rem; /*16*/
+  font-weight: bold;
+  color: #161616;
+}
+.data-experiencia {
+  font-size: 0.75rem; /*12*/
+  color: #a6a6a6;
+  font-family: "Inter", sans-serif;
+}
+.experiencia-itens {
+  display: flex;
+  font-size: 0.87rem; /*14px*/
+  color: #404040;
+  line-height: 1.8rem;
+}
+.experiencia-itens img {
+  padding-right: 8px;
+}

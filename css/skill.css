@@ -1,0 +1,38 @@
+.skil-icon-txt {
+  display: flex;
+  gap: 16px;
+}
+.skil-itens {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem; /*16px*/
+  color: #404040;
+}
+.skil-itens img {
+  max-width: 20px;
+  align-items: center;
+}
+
+.barra-progresso {
+  height: 16px;
+  width: 320px;
+}
+progress {
+  -webkit-appearance: none;
+}
+progress::-webkit-progress-bar {
+  background: #cfcfcf;
+  border-radius: 50px;
+}
+
+progress::-moz-progress-bar {
+  background: #cfcfcf;
+  border-radius: 50px;
+}
+progress::-webkit-progress-value {
+  background: #bc0f0f;
+  border-radius: 50px;
+}
+progress::-moz-progress-value {
+  background: #bc0f0f;
+  border-radius: 50px;
+}
